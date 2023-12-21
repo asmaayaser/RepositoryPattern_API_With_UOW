@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\ReposetoryPatternWith_UOW.Api.props" />
+</Project>
