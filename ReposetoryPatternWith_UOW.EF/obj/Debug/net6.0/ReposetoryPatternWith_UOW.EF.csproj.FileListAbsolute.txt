@@ -15,3 +15,4 @@ D:\ASP.NET\Repository Pattern With Unit Of Work in .Net 6 (Core)\ReposetoryPatte
 D:\ASP.NET\Repository Pattern With Unit Of Work in .Net 6 (Core)\ReposetoryPatternWith_UOW\ReposetoryPatternWith_UOW.EF\bin\Debug\net6.0\ReposetoryPatternWith_UOW.Core.dll
 D:\ASP.NET\Repository Pattern With Unit Of Work in .Net 6 (Core)\ReposetoryPatternWith_UOW\ReposetoryPatternWith_UOW.EF\bin\Debug\net6.0\ReposetoryPatternWith_UOW.Core.pdb
 D:\ASP.NET\Repository Pattern With Unit Of Work in .Net 6 (Core)\ReposetoryPatternWith_UOW\ReposetoryPatternWith_UOW.EF\obj\Debug\net6.0\ReposetoryPatternWith_UOW.EF.csproj.CopyComplete
+D:\ASP.NET\Repository Pattern With Unit Of Work in .Net 6 (Core)\ReposetoryPatternWith_UOW\ReposetoryPatternWith_UOW.EF\obj\Debug\net6.0\ReposetoryPatternWith_UOW.EF.sourcelink.json

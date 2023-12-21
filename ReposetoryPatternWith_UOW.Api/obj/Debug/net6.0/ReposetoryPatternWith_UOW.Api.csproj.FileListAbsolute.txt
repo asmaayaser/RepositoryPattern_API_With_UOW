@@ -70,3 +70,4 @@ D:\ASP.NET\Repository Pattern With Unit Of Work in .Net 6 (Core)\ReposetoryPatte
 D:\ASP.NET\Repository Pattern With Unit Of Work in .Net 6 (Core)\ReposetoryPatternWith_UOW\ReposetoryPatternWith_UOW.Api\obj\Debug\net6.0\ReposetoryPatternWith_UOW.Api.pdb
 D:\ASP.NET\Repository Pattern With Unit Of Work in .Net 6 (Core)\ReposetoryPatternWith_UOW\ReposetoryPatternWith_UOW.Api\obj\Debug\net6.0\ReposetoryPatternWith_UOW.Api.genruntimeconfig.cache
 D:\ASP.NET\Repository Pattern With Unit Of Work in .Net 6 (Core)\ReposetoryPatternWith_UOW\ReposetoryPatternWith_UOW.Api\obj\Debug\net6.0\ref\ReposetoryPatternWith_UOW.Api.dll
+D:\ASP.NET\Repository Pattern With Unit Of Work in .Net 6 (Core)\ReposetoryPatternWith_UOW\ReposetoryPatternWith_UOW.Api\obj\Debug\net6.0\ReposetoryPatternWith_UOW.Api.sourcelink.json

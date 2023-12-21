@@ -10,11 +10,9 @@ namespace ReposetoryPatternWith_UOW.Core.Interfaces
 {
     public interface IBaseRepository<T> where T : class
     {
+        IEnumerable<T> GetAll(string[] includes = null);
         T GetById(int id);
-        IEnumerable<T> GetAll();
-
-        //T Find(Expression<Func<T, bool>> match);
-
+        T Find(Expression<Func<T, bool>> match);
         T Find(Expression<Func<T,bool>> match,string[] includes = null);
 
         IEnumerable<T> FindAll(Expression<Func<T, bool>> match, string[] includes = null);
@@ -32,12 +30,5 @@ namespace ReposetoryPatternWith_UOW.Core.Interfaces
         void Attach(T entity);
         int Count(T entity);
         int Count(Expression<Func<T, bool>> match);
-
-
-
-
-
-
-
     }
 }

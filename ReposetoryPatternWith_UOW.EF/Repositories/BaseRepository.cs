@@ -7,6 +7,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace ReposetoryPatternWith_UOW.EF.Repositories
 {
@@ -18,23 +19,37 @@ namespace ReposetoryPatternWith_UOW.EF.Repositories
             Context = context;
         }
 
+        public IEnumerable<T> GetAll()
+        {
 
+            return Context.Set<T>().ToList();
+        }
+
+
+        public IEnumerable<T> GetAll(string[] includes = null)
+        {
+            IQueryable<T> query = Context.Set<T>();
+
+            if (includes != null)
+            {
+                foreach (var include in includes)
+                {
+                    query = query.Include(include);
+                }
+            }
+
+            return query.ToList();
+        }
         public T GetById(int id)
-
         {
             return Context.Set<T>().Find(id);
         }
 
-
-        public IEnumerable<T> GetAll()
+        public T Find(Expression<Func<T, bool>> match)
         {
-            return Context.Set<T>().ToList();
+            return Context.Set<T>().FirstOrDefault(match);
         }
 
-        //public T Find(Expression<Func<T, bool>> match)
-        //{
-        //    return Context.Set<T>().SingleOrDefault(match);
-        //}
 
         public T Find(Expression<Func<T, bool>> match, string[] includes = null)
         {
@@ -47,7 +62,7 @@ namespace ReposetoryPatternWith_UOW.EF.Repositories
                 }
             }
 
-            return query.SingleOrDefault(match);
+            return query.FirstOrDefault(match);
         }
 
         public IEnumerable<T> FindAll(Expression<Func<T, bool>> match, string[] includes = null)
