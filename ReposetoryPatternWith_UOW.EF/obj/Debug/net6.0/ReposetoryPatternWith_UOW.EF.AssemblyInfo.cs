@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReposetoryPatternWith_UOW.EF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d32b175bb7569a918e1a2c37490d9228db095cb4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f8a1931a2e73ed1d98f8cb95a0c22709c13e61b8")]
 [assembly: System.Reflection.AssemblyProductAttribute("ReposetoryPatternWith_UOW.EF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReposetoryPatternWith_UOW.EF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

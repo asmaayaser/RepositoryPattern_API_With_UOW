@@ -36,6 +36,7 @@ namespace ReposetoryPatternWith_UOW.Api.Controllers
             }
             return Ok(Authors);
         }
+
         [HttpPost]
         public IActionResult AddOne(Author entity)
         {
